@@ -8,6 +8,7 @@ import {
 export const workflowSettings: WorkflowSettings = {
   id: "onPostUserAuthentication",
   trigger: WorkflowTrigger.PostAuthentication,
+  name: "Post auth"
 };
 
 // The workflow code to be executed when the event is triggered
